@@ -1,0 +1,9 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix expapp-test test && npm --prefix vueapp-test/my-app run test:unit",
+    "build": "npm --prefix vueapp-test/my-app run build"
+  }
+}
